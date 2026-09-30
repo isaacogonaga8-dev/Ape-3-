@@ -5,23 +5,43 @@ Se necesita un cajero que parta de un saldo inicial y permita consultar saldo, d
 
 2. Entradas, procesos y salidas
 
-Entradas	Procesos	Salidas ,Saldo inicial, opción del menú, monto a depositar, monto a retirar	Validar saldo inicial ≥ 0; repetir el menú (do-while); seleccionar acción (switch); acumular saldo (suma/resta); contar transacciones; validar monto > 0 y retiro ≤ saldo	Saldo actual, mensajes de éxito o error, número de transacciones, despedida
+   
+Entradas,Procesos,Salidas ,
+Saldo inicial, opción del menú, monto a depositar, monto a retirar	
+Validar saldo inicial ≥ 0; repetir el menú (do-while); seleccionar acción (switch);
+acumular saldo (suma/resta); contar transacciones; validar monto > 0 y retiro ≤ saldo	
+Saldo actual, mensajes de éxito o error, número de transacciones, despedida
+
 
 3. Algoritmo
 Inicio.
+
 Leer saldo inicial; repetir mientras sea negativo.
+
 Poner transacciones en 0.
+
 Mostrar menú y leer opción.
+
 Si opción = 1, mostrar saldo.
+
 Si opción = 2, leer monto; si monto > 0, sumar al saldo y aumentar transacciones; si no, mostrar error.
-Si opción = 3, leer monto; si monto > 0 y monto ≤ saldo, restar del saldo y aumentar transacciones; si no, mostrar error.
+
+Si opción = 3, leer monto; si monto > 0 y monto ≤ saldo, restar del saldo y aumentar transacciones; si no, mostrar erro
+
 Si opción = 4, mostrar transacciones.
+
 Si opción = 5, despedirse; si es otro valor, mostrar "opción inválida".
+
 Mientras opción ≠ 5, volver al paso 4.
+
 Fin.
 
-4. Pseudocódigo
+
+5. Pseudocódigo
+   
+
 Algoritmo CajeroUniversitario
+
     Definir saldo, deposito, retiro Como Real
     Definir opcion, transacciones Como Entero
     transacciones <- 0
@@ -56,7 +76,9 @@ Algoritmo CajeroUniversitario
             De Otro Modo: Escribir "Opción inválida"
         FinSegun
     Hasta Que opcion = 5
+    
 FinAlgoritmo
+
 
 
 5.DIAGRAMA DE FLUJO
