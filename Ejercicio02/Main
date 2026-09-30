@@ -10,6 +10,7 @@ public class Main {
         int suma = 0;
         int contador = 0;
         int menores = 0;
+        int adultos = 0;
         double promedio;
 
         // Ingresar edades hasta utilizar el valor centinela
@@ -32,6 +33,11 @@ public class Main {
                 // Contar menores de edad
                 if (edad < 18) {
                     menores++;
+                }
+
+                // Contar adultos
+                if (edad >= 18 && edad <= 65) {
+                    adultos++;
                 }
             }
 
