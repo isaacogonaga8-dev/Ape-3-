@@ -37,6 +37,20 @@ public class Ejercicio01_PromedioCalificaciones {
                     + i + ": "
             );
 
+            calificacion = entrada.nextDouble();
+
+            // Validar que la calificacion este entre 0 y 10
+            while (calificacion < 0 || calificacion > 10) {
+
+                System.out.println(
+                        "Calificacion no valida. "
+                        + "Ingrese una nota entre 0 y 10."
+                );
+
+                System.out.print("Ingrese nuevamente: ");
+                calificacion = entrada.nextDouble();
+            }
+
         }
 
     }
