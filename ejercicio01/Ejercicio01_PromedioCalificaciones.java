@@ -53,6 +53,13 @@ public class Ejercicio01_PromedioCalificaciones {
 
             // Acumular la calificacion
             suma = suma + calificacion;
+
+            // Contar aprobados y reprobados
+            if (calificacion >= 7) {
+                aprobados++;
+            } else {
+                reprobados++;
+            }
         }
 
     }
