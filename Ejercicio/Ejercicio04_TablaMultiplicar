@@ -1,0 +1,10 @@
+import java.util.Scanner;
+
+public class Ejercicio04_TablaMultiplicar {
+
+    public static void main(String[] args) {
+
+        Scanner entrada = new Scanner(System.in);
+
+    }
+}
