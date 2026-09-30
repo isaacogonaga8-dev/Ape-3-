@@ -60,6 +60,16 @@ public class Ejercicio01_PromedioCalificaciones {
             } else {
                 reprobados++;
             }
+
+            // Determinar la nota mas alta
+            if (calificacion > mayor) {
+                mayor = calificacion;
+            }
+
+            // Determinar la nota mas baja
+            if (calificacion < menor) {
+                menor = calificacion;
+            }
         }
 
     }
