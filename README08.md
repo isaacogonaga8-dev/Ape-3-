@@ -1,8 +1,8 @@
 # Ejercicio 8. Estacionamiento universitario
 
-Betancourt Steven 
-Ogonaga Isaac
-Terán Julio 
+- Betancourt Steven 
+- Ogonaga Isaac
+- Terán Julio 
 
 ## Problema
 Registre varios vehículos indicando tipo, número de horas y tarifa correspondiente. Calcule el valor individual y la recaudación total. El proceso finalizará al ingresar una opción centinela definida por el equipo.
