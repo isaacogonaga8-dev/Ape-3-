@@ -102,6 +102,11 @@ public class Main {
                     // Finalizar el programa
                     System.out.println("Programa finalizado.");
                     break;
+
+                default:
+                    // Mostrar mensaje para una opcion incorrecta
+                    System.out.println("Opcion no valida.");
+                    break;
             }
 
         } while (opcion != 5);
