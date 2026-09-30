@@ -6,6 +6,10 @@
 - Steven Betancourt
 - Isaac Ogonaga
 
+## 1. Problema
+
+Desarrollar un programa que solicite la cantidad de estudiantes y registre las calificaciones de cada uno. Las calificaciones deben estar entre 0 y 10. Al finalizar, el programa debe mostrar el promedio general, la calificación mayor, la calificación menor, el número de aprobados y el número de reprobados.
+
 ## Objetivo
 
 Desarrollar un programa que solicite la cantidad de estudiantes y registre sus calificaciones, aplicando validaciones y utilizando estructuras de repetición para obtener el promedio general, la calificación mayor, la menor, el número de aprobados y el número de reprobados.
@@ -13,10 +17,6 @@ Desarrollar un programa que solicite la cantidad de estudiantes y registre sus c
 ## Descripción del ejercicio
 
 El programa debe solicitar la cantidad de estudiantes y registrar una calificación para cada uno. Las calificaciones deben estar entre 0 y 10. Al finalizar, se debe mostrar el promedio general, la calificación mayor, la calificación menor, la cantidad de estudiantes aprobados y la cantidad de estudiantes reprobados.
-
-## 1. Problema
-
-Desarrollar un programa que solicite la cantidad de estudiantes y registre las calificaciones de cada uno. Las calificaciones deben estar entre 0 y 10. Al finalizar, el programa debe mostrar el promedio general, la calificación mayor, la calificación menor, el número de aprobados y el número de reprobados.
 
 ## 2. Análisis
 
@@ -125,3 +125,7 @@ Algoritmo PromedioCalificaciones
     Escribir "Reprobados: ", reprobados
 
 FinAlgoritmo
+
+## Diagrama de flujo
+<img width="1024" height="1536" alt="Ejercicio01_Diagrama png" src="https://github.com/user-attachments/assets/935ae130-1d7f-407a-9b33-57873e3cd40f" />
+
