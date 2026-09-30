@@ -75,5 +75,15 @@ public class Ejercicio01_PromedioCalificaciones {
         // Calcular el promedio
         promedio = suma / N;
 
+        // Mostrar resultados
+        System.out.println();
+        System.out.println("===== RESULTADOS =====");
+        System.out.println("Cantidad de estudiantes: " + N);
+        System.out.println("Suma de calificaciones: " + suma);
+        System.out.println("Promedio general: " + promedio);
+        System.out.println("Nota mas alta: " + mayor);
+        System.out.println("Nota mas baja: " + menor);
+        System.out.println("Estudiantes aprobados: " + aprobados);
+        System.out.println("Estudiantes reprobados: " + reprobados);
     }
 }
