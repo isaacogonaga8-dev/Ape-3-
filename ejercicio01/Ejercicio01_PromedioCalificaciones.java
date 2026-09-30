@@ -72,5 +72,8 @@ public class Ejercicio01_PromedioCalificaciones {
             }
         }
 
+        // Calcular el promedio
+        promedio = suma / N;
+
     }
 }
