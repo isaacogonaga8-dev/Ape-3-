@@ -1,6 +1,6 @@
 Ejercicio 6 – Estadísticas de un curso
 
-1. Análisis del problema
+1. Análisis del problem
    
 Se registran las notas de N estudiantes. Con ellas se calcula el promedio general, la nota mayor, la nota menor y la cantidad y porcentaje de aprobados y reprobados. Cada nota debe estar entre 0 y 10. Se asume que se aprueba con nota ≥ 7.
 
