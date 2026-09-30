@@ -74,6 +74,29 @@ public class Main {
 
                     System.out.println("Resultado: " + resultado);
                     break;
+
+                case 4:
+                    // Solicitar los dos numeros
+                    System.out.print("Ingrese el primer numero: ");
+                    num1 = entrada.nextDouble();
+
+                    System.out.print("Ingrese el segundo numero: ");
+                    num2 = entrada.nextDouble();
+
+                    // Verificar que el divisor no sea cero
+                    if (num2 == 0) {
+                        System.out.println(
+                                "Error: no se puede dividir entre cero."
+                        );
+                    } else {
+                        // Realizar la division
+                        resultado = num1 / num2;
+
+                        System.out.println(
+                                "Resultado: " + resultado
+                        );
+                    }
+                    break;
             }
 
         } while (opcion != 5);
