@@ -9,5 +9,8 @@ public class Ejercicio04_TablaMultiplicar {
         int numero;
         int resultado;
 
+        System.out.print("Ingrese un numero entre 1 y 12: ");
+        numero = entrada.nextInt();
+
     }
 }
