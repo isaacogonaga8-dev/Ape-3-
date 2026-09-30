@@ -51,6 +51,8 @@ public class Ejercicio01_PromedioCalificaciones {
                 calificacion = entrada.nextDouble();
             }
 
+            // Acumular la calificacion
+            suma = suma + calificacion;
         }
 
     }
