@@ -181,8 +181,8 @@ Cantidad de edades ingresadas: 6
 
 ## 11. Capturas o evidencias
 
-<img width="1540" height="972" alt="image" src="https://github.com/user-attachments/assets/ba1efb70-5ee6-4f98-bc3f-dbebb6ca3d27" />
-
+<img width="1442" height="939" alt="Captura de pantalla 2026-09-30 000906" src="https://github.com/user-attachments/assets/5e176c64-7639-48bb-ae12-1418a26faf01" />
+<img width="1438" height="923" alt="image" src="https://github.com/user-attachments/assets/932cfee7-763e-47bd-b018-fdda47c0c65e" />
 
 ## 12. Conclusiones
 
