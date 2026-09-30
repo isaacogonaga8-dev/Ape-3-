@@ -8,5 +8,29 @@ public class Main {
 
         Scanner entrada = new Scanner(System.in);
 
+        // Variables de la calculadora
+        int opcion;
+        double num1;
+        double num2;
+        double resultado;
+
+        // Repetir el menu hasta seleccionar la opcion 5
+        do {
+
+            // Mostrar las opciones de la calculadora
+            System.out.println("\n==========================");
+            System.out.println("       CALCULADORA");
+            System.out.println("==========================");
+            System.out.println("1. Sumar");
+            System.out.println("2. Restar");
+            System.out.println("3. Multiplicar");
+            System.out.println("4. Dividir");
+            System.out.println("5. Salir");
+            System.out.print("Seleccione una opcion: ");
+
+            opcion = entrada.nextInt();
+
+        } while (opcion != 5);
+
     }
 }
