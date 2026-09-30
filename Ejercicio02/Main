@@ -20,8 +20,8 @@ public class Main {
 
         while (edad != -1) {
 
-            // Validar que la edad sea positiva
-            while (edad < 0) {
+            // Validar que la edad sea valida
+            while (edad < -1) {
                 System.out.println("Edad no valida.");
                 System.out.print("Ingrese nuevamente: ");
                 edad = entrada.nextInt();
