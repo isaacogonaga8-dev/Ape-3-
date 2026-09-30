@@ -97,6 +97,11 @@ public class Main {
                         );
                     }
                     break;
+
+                case 5:
+                    // Finalizar el programa
+                    System.out.println("Programa finalizado.");
+                    break;
             }
 
         } while (opcion != 5);
