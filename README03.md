@@ -156,8 +156,7 @@ FinAlgoritmo
 
 ## 8. Diagrama de flujo
 
-Aquí se colocará el diagrama de flujo del Ejercicio 3.
-
+<img width="1158" height="1359" alt="diagrama03" src="https://github.com/user-attachments/assets/e352dd0c-e259-4f02-ba18-0b4b0771cb6f" />
 
 ## 9. Estructuras utilizadas
 
@@ -200,6 +199,8 @@ Aquí se colocará el diagrama de flujo del Ejercicio 3.
 
 ## 11. Capturas o evidencias
 
+<img width="1451" height="950" alt="image" src="https://github.com/user-attachments/assets/c2a15ea6-e5ac-44f0-a88e-8da39314c2c8" />
+<img width="1424" height="914" alt="image" src="https://github.com/user-attachments/assets/815ffa4b-2627-49f1-872a-0ce5689c773e" />
 
 ## 12. Conclusiones
 
