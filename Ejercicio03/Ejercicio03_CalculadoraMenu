@@ -60,6 +60,20 @@ public class Main {
 
                     System.out.println("Resultado: " + resultado);
                     break;
+
+                case 3:
+                    // Solicitar los dos numeros
+                    System.out.print("Ingrese el primer numero: ");
+                    num1 = entrada.nextDouble();
+
+                    System.out.print("Ingrese el segundo numero: ");
+                    num2 = entrada.nextDouble();
+
+                    // Realizar la multiplicacion
+                    resultado = num1 * num2;
+
+                    System.out.println("Resultado: " + resultado);
+                    break;
             }
 
         } while (opcion != 5);
