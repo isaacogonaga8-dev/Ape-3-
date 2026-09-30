@@ -85,5 +85,8 @@ public class Ejercicio01_PromedioCalificaciones {
         System.out.println("Nota mas baja: " + menor);
         System.out.println("Estudiantes aprobados: " + aprobados);
         System.out.println("Estudiantes reprobados: " + reprobados);
+
+        // Cerrar el Scanner
+        entrada.close();
     }
 }
