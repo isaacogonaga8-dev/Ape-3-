@@ -8,5 +8,9 @@ public class Main {
 
         Scanner entrada = new Scanner(System.in);
 
+        // Variables de la tabla de multiplicar
+        int numero;
+        int resultado;
+
     }
 }
