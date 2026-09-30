@@ -17,5 +17,15 @@ public class Ejercicio04_TablaMultiplicar {
             numero = entrada.nextInt();
         }
 
+        System.out.println("\nTabla de multiplicar del " + numero);
+
+        for (int i = 1; i <= 12; i++) {
+
+            resultado = numero * i;
+
+            System.out.println(numero + " x " + i + " = " + resultado);
+        }
+
+        entrada.close();
     }
 }
