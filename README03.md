@@ -152,3 +152,63 @@ Algoritmo CalculadoraMenu
     Hasta Que opcion = 5
 
 FinAlgoritmo
+```
+
+## 8. Diagrama de flujo
+
+Aquí se colocará el diagrama de flujo del Ejercicio 3.
+
+
+## 9. Estructuras utilizadas
+
+- **Ciclo do-while:** permite repetir el menú hasta que el usuario seleccione la opción 5.
+- **Switch:** permite seleccionar y ejecutar la operación correspondiente.
+- **Condicional if-else:** permite controlar que no se realice una división entre cero.
+- **Validación:** permite controlar la división y las opciones ingresadas.
+- **Selección:** permite determinar qué operación matemática debe realizar el programa.
+
+## 10. Datos de prueba
+
+| Caso | Opción | Primer número | Segundo número | Resultado esperado |
+|------|-------:|--------------:|---------------:|--------------------|
+| 1 | 1 | 10 | 5 | 15 |
+| 2 | 2 | 10 | 5 | 5 |
+| 3 | 3 | 10 | 5 | 50 |
+| 4 | 4 | 10 | 5 | 2 |
+| 5 | 4 | 10 | 0 | Error: no se puede dividir entre cero |
+| 6 | 5 | - | - | Programa finalizado |
+
+## Seguimiento
+
+| Caso | Opción | Operación | Resultado |
+|------|-------:|-----------|----------:|
+| 1 | 1 | 10 + 5 | 15 |
+| 2 | 2 | 10 - 5 | 5 |
+| 3 | 3 | 10 × 5 | 50 |
+| 4 | 4 | 10 ÷ 5 | 2 |
+| 5 | 4 | 10 ÷ 0 | División no permitida |
+| 6 | 5 | Salir | Programa finalizado |
+
+## Resultados esperados
+
+- Suma de 10 + 5: 15
+- Resta de 10 - 5: 5
+- Multiplicación de 10 × 5: 50
+- División de 10 ÷ 5: 2
+- División de 10 ÷ 0: operación no permitida
+- Opción 5: programa finalizado
+
+## 11. Capturas o evidencias
+
+
+## 12. Conclusiones
+
+- Se desarrolló una calculadora en Java utilizando un menú repetitivo para realizar diferentes operaciones matemáticas.
+
+- Se utilizó el ciclo `do-while` para mantener el menú activo hasta seleccionar la opción de salida.
+
+- Se utilizó `switch` para seleccionar la operación que debe realizar el programa.
+
+- Se aplicó una validación para evitar realizar divisiones entre cero.
+
+- Se comprobó el funcionamiento del programa mediante diferentes casos de prueba.
