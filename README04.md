@@ -82,3 +82,81 @@ Algoritmo TablaMultiplicarValidada
 
 FinAlgoritmo
 ```
+### 8. Diagrama de flujo
+
+<img width="1129" height="1393" alt="draigrama 4" src="https://github.com/user-attachments/assets/1c5fed41-7e87-43e8-993e-9cb5ffa03456" />
+
+## 9. Estructuras utilizadas
+
+- **Ciclo while:** permite validar que el número ingresado se encuentre entre 1 y 12. Si el número no es válido, se vuelve a solicitar.
+
+- **Ciclo for:** permite generar la tabla de multiplicar desde 1 hasta 12.
+
+- **Condicional:** permite comprobar si el número ingresado está dentro del rango permitido.
+
+- **Validación:** evita que el programa continúe con números menores que 1 o mayores que 12.
+
+- **Contador:** la variable `i` controla las multiplicaciones desde 1 hasta 12.
+
+## 10. Datos de prueba
+
+| Caso | Número ingresado | Validación | Resultado |
+|------|------------------:|------------|-----------|
+| 1 | 7 | Válido | Se genera la tabla del 7 |
+| 2 | 15 | No válido | Se solicita nuevamente |
+| 3 | 10 | Válido | Se genera la tabla del 10 |
+| 4 | 0 | No válido | Se solicita nuevamente |
+| 5 | 1 | Válido | Se genera la tabla del 1 |
+
+## Seguimiento
+
+### Caso de prueba: número 7
+
+| Iteración | Número | Multiplicador | Operación | Resultado |
+|----------:|-------:|--------------:|-----------|----------:|
+| 1 | 7 | 1 | 7 × 1 | 7 |
+| 2 | 7 | 2 | 7 × 2 | 14 |
+| 3 | 7 | 3 | 7 × 3 | 21 |
+| 4 | 7 | 4 | 7 × 4 | 28 |
+| 5 | 7 | 5 | 7 × 5 | 35 |
+| 6 | 7 | 6 | 7 × 6 | 42 |
+| 7 | 7 | 7 | 7 × 7 | 49 |
+| 8 | 7 | 8 | 7 × 8 | 56 |
+| 9 | 7 | 9 | 7 × 9 | 63 |
+| 10 | 7 | 10 | 7 × 10 | 70 |
+| 11 | 7 | 11 | 7 × 11 | 77 |
+| 12 | 7 | 12 | 7 × 12 | 84 |
+
+## Resultados esperados
+
+- 7 × 1 = 7
+- 7 × 2 = 14
+- 7 × 3 = 21
+- 7 × 4 = 28
+- 7 × 5 = 35
+- 7 × 6 = 42
+- 7 × 7 = 49
+- 7 × 8 = 56
+- 7 × 9 = 63
+- 7 × 10 = 70
+- 7 × 11 = 77
+- 7 × 12 = 84
+
+Si se ingresa un número menor que 1 o mayor que 12, el programa debe mostrar un mensaje de número no válido y solicitar nuevamente el dato.
+
+## 11. Capturas o evidencias
+
+<img width="1391" height="931" alt="image" src="https://github.com/user-attachments/assets/066c9934-d3dc-4e5d-9149-823887703e4a" />
+<img width="1413" height="917" alt="image" src="https://github.com/user-attachments/assets/38a84c32-4f62-4a98-b9c5-421d17f4832b" />
+
+## 12. Conclusiones
+
+- Se desarrolló un programa en Java para generar la tabla de multiplicar de un número entre 1 y 12.
+
+- Se utilizó un ciclo `while` para validar que el número ingresado se encuentre dentro del rango permitido.
+
+- Se utilizó un ciclo `for` para generar las multiplicaciones desde 1 hasta 12.
+
+- Se comprobó el funcionamiento del programa mediante diferentes datos de prueba, incluyendo valores válidos y no válidos.
+
+- Se aplicaron estructuras de repetición de acuerdo con el problema planteado.
