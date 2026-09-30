@@ -1,0 +1,25 @@
+package ejercicio02;
+
+import java.util.Scanner;
+
+public class Main {
+
+    public static void main(String[] args) {
+
+        Scanner entrada = new Scanner(System.in);
+
+        // Variable para almacenar la edad ingresada
+        int edad;
+
+        // Contadores de las categorias de edad
+        int menores = 0;
+        int adultos = 0;
+        int mayores65 = 0;
+
+        // Variables para calcular el promedio
+        int contadorEdades = 0;
+        int sumaEdades = 0;
+        double promedioEdades;
+
+    }
+}
