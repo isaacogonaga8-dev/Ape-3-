@@ -18,5 +18,16 @@ public class Ejercicio01_PromedioCalificaciones {
         double mayor = 0;
         double menor = 10;
 
+        // Solicitar la cantidad de estudiantes
+        System.out.print("Ingrese la cantidad de estudiantes: ");
+        N = entrada.nextInt();
+
+        // Validar que la cantidad sea mayor que cero
+        while (N <= 0) {
+            System.out.println("Cantidad no valida.");
+            System.out.print("Ingrese nuevamente: ");
+            N = entrada.nextInt();
+        }
+
     }
 }
