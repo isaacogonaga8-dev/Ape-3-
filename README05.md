@@ -110,6 +110,9 @@ Otros	Variables double e int,: Scanner	Datos y lectura por teclado
 
 
 
+
+
+
 7.CASOS DE PRUEBA
 
 N.º	Descripción	Entrada	Resultado esperado
@@ -146,6 +149,7 @@ N.º	Descripción	Entrada	Resultado esperado
 
 
 <img width="672" height="355" alt="image" src="https://github.com/user-attachments/assets/5748cf3c-b3e9-401a-9b35-19509a48d9b7" />
+
 
 
 
