@@ -6,5 +6,8 @@ public class Ejercicio04_TablaMultiplicar {
 
         Scanner entrada = new Scanner(System.in);
 
+        int numero;
+        int resultado;
+
     }
 }
