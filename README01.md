@@ -125,7 +125,64 @@ Algoritmo PromedioCalificaciones
     Escribir "Reprobados: ", reprobados
 
 FinAlgoritmo
+```
 
-## Diagrama de flujo
+## 8. Diagrama de flujo
+
 <img width="1024" height="1536" alt="Ejercicio01_Diagrama png" src="https://github.com/user-attachments/assets/935ae130-1d7f-407a-9b33-57873e3cd40f" />
 
+## 9. Estructuras utilizadas
+
+- **Ciclo for:** permite repetir el ingreso de las calificaciones de todos los estudiantes.
+- **Ciclo do-while:** permite validar que cada calificación esté entre 0 y 10.
+- **Condicional if:** permite determinar la calificación mayor y menor.
+- **Condicional if-else:** permite determinar si un estudiante está aprobado o reprobado.
+- **Acumulador:** se utiliza para sumar todas las calificaciones.
+- **Contadores:** se utilizan para contar los estudiantes aprobados y reprobados.
+- **Validación:** comprueba que las calificaciones ingresadas estén dentro del rango permitido.
+
+## 10. Datos de prueba
+
+Cantidad de estudiantes: 4
+
+| Estudiante | Calificación |
+|------------|--------------|
+| 1 | 8 |
+| 2 | 6 |
+| 3 | 10 |
+| 4 | 5 |
+
+## Seguimiento
+
+| Estudiante | Calificación | Suma acumulada | Mayor | Menor | Aprobados | Reprobados |
+|------------|--------------|----------------|-------|-------|-----------|------------|
+| 1 | 8 | 8 | 8 | 8 | 1 | 0 |
+| 2 | 6 | 14 | 8 | 6 | 1 | 1 |
+| 3 | 10 | 24 | 10 | 6 | 2 | 1 |
+| 4 | 5 | 29 | 10 | 5 | 2 | 2 |
+
+## Resultados esperados
+
+- Suma de calificaciones: 29
+- Promedio general: 7.25
+- Calificación mayor: 10
+- Calificación menor: 5
+- Aprobados: 2
+- Reprobados: 2
+
+## 11. Capturas o evidencias
+
+<img width="1442" height="961" alt="Ejercicio01_Evidencia_01" src="https://github.com/user-attachments/assets/4af0d5cd-0730-4629-8c3c-b1153b849391" />
+<img width="1438" height="946" alt="Ejercicio01_Evidencia_02" src="https://github.com/user-attachments/assets/67579e47-23a7-4e6e-aaf0-ddc7c742e61e" />
+
+## 12. Conclusiones
+
+- Se desarrolló un programa en Java para calcular el promedio de las calificaciones de un grupo de estudiantes.
+
+- Se aplicaron estructuras de repetición para ingresar y procesar las calificaciones de cada estudiante.
+
+- Se utilizaron validaciones para asegurar que las calificaciones ingresadas estén dentro del rango establecido de 0 a 10.
+
+- Se utilizaron acumuladores y contadores para obtener el promedio y determinar la cantidad de estudiantes aprobados y reprobados.
+
+- Se comprobó el funcionamiento del programa mediante diferentes casos de prueba, verificando que los resultados obtenidos sean correctos.
