@@ -11,15 +11,25 @@ N (cantidad de estudiantes), N notas	Validar N > 0; repetir N veces (for); valid
 
 
 3. Algoritmo
+
 Inicio.
+
 Leer N; repetir mientras N ≤ 0.
+
 Iniciar suma = 0, mayor = 0, menor = 10, aprobados = 0, reprobados = 0.
+
 Para i desde 1 hasta N: leer nota y repetir mientras esté fuera de 0–10.
+
 Sumar la nota a suma.
+
 Si nota > mayor, mayor = nota. Si nota < menor, menor = nota.
+
 Si nota ≥ 7, aumentar aprobados; si no, aumentar reprobados.
+
 Al terminar el ciclo: promedio = suma / N; % aprobados = aprobados × 100 / N; % reprobados = reprobados × 100 / N.
+
 Mostrar resultados.
+
 Fin.
 
 
