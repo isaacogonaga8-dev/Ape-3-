@@ -29,5 +29,15 @@ public class Ejercicio01_PromedioCalificaciones {
             N = entrada.nextInt();
         }
 
+        // Repetir el proceso para cada estudiante
+        for (int i = 1; i <= N; i++) {
+
+            System.out.print(
+                    "Ingrese la calificacion del estudiante "
+                    + i + ": "
+            );
+
+        }
+
     }
 }
