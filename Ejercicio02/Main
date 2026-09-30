@@ -64,6 +64,9 @@ public class Main {
             System.out.println("Cantidad de edades: " + contador);
             System.out.println("Suma de edades: " + suma);
             System.out.println("Promedio de edades: " + promedio);
+            System.out.println("Menores de edad: " + menores);
+            System.out.println("Adultos: " + adultos);
+            System.out.println("Mayores de 65 años: " + mayores65);
         } else {
             System.out.println();
             System.out.println("No se ingresaron edades.");
