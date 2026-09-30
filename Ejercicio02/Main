@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class ejercicio02 {
+public class Main {
 
     public static void main(String[] args) {
 
@@ -9,6 +9,7 @@ public class ejercicio02 {
         int edad;
         int suma = 0;
         int contador = 0;
+        int menores = 0;
         double promedio;
 
         // Ingresar edades hasta utilizar el valor centinela
@@ -27,6 +28,11 @@ public class ejercicio02 {
             if (edad != -1) {
                 suma = suma + edad;
                 contador++;
+
+                // Contar menores de edad
+                if (edad < 18) {
+                    menores++;
+                }
             }
 
             if (edad != -1) {
