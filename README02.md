@@ -132,4 +132,66 @@ Algoritmo ControlEdades
 
 FinAlgoritmo
 ```
+## 8. Diagrama de flujo
 
+<img width="1024" height="1536" alt="Ejercicio02" src="https://github.com/user-attachments/assets/af0b667a-2372-4a6b-aef0-dbbdda72f0e4" />
+
+## 9. Estructuras utilizadas
+
+- **Ciclo while:** permite repetir el ingreso de edades hasta que se introduzca el valor centinela `-1`.
+- **Valor centinela:** el valor `-1` permite finalizar el ingreso de edades.
+- **Condicional if:** permite clasificar las edades según el rango correspondiente.
+- **Acumulador:** se utiliza para sumar todas las edades ingresadas.
+- **Contadores:** se utilizan para contar menores de edad, adultos y mayores de 65 años.
+- **Validación:** permite controlar que las edades ingresadas sean válidas.
+
+## 10. Datos de prueba
+
+Cantidad de edades ingresadas: 6
+
+| Persona | Edad |
+|------------|------:|
+| 1 | 15 |
+| 2 | 25 |
+| 3 | 70 |
+| 4 | 40 |
+| 5 | 17 |
+| 6 | 66 |
+| - | -1 |
+
+## Seguimiento
+
+| Persona | Edad | Suma acumulada | Menores | Adultos | Mayores de 65 |
+|------------|------:|---------------:|--------:|--------:|--------------:|
+| 1 | 15 | 15 | 1 | 0 | 0 |
+| 2 | 25 | 40 | 1 | 1 | 0 |
+| 3 | 70 | 110 | 1 | 1 | 1 |
+| 4 | 40 | 150 | 1 | 2 | 1 |
+| 5 | 17 | 167 | 2 | 2 | 1 |
+| 6 | 66 | 233 | 2 | 2 | 2 |
+
+## Resultados esperados
+
+- Suma de edades: 233
+- Cantidad de edades ingresadas: 6
+- Promedio de edades: 38.83
+- Menores de edad: 2
+- Adultos: 2
+- Mayores de 65 años: 2
+
+## 11. Capturas o evidencias
+
+<img width="1540" height="972" alt="image" src="https://github.com/user-attachments/assets/ba1efb70-5ee6-4f98-bc3f-dbebb6ca3d27" />
+
+
+## 12. Conclusiones
+
+- Se desarrolló un programa en Java para procesar las edades ingresadas por el usuario.
+
+- Se utilizó un ciclo `while` para repetir el ingreso de edades hasta encontrar el valor centinela `-1`.
+
+- Se aplicaron contadores para clasificar las edades en menores de edad, adultos y mayores de 65 años.
+
+- Se utilizó un acumulador para obtener la suma de las edades y calcular el promedio.
+
+- Se comprobó el funcionamiento del programa mediante una prueba de escritorio con diferentes edades.
