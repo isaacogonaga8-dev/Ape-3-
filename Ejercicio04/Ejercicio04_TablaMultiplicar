@@ -12,5 +12,9 @@ public class Main {
         int numero;
         int resultado;
 
+        // Solicitar el numero al usuario
+        System.out.print("Ingrese un numero entre 1 y 12: ");
+        numero = entrada.nextInt();
+
     }
 }
