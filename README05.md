@@ -115,17 +115,29 @@ Otros	Variables double e int,: Scanner	Datos y lectura por teclado
 N.º	Descripción	Entrada	Resultado esperado
 
 1	Consultar saldo	Saldo inicial 100; opción 1	Saldo actual: $100.0
+
 2	Saldo inicial negativo	Saldo inicial -50, luego 100	Mensaje de error y vuelve a pedir el saldo
+
 3	Depósito válido	Saldo 100; opción 2, monto 50	Nuevo saldo $150.0; transacciones = 1
+
 4	Depósito en cero	Opción 2, monto 0	"El monto debe ser mayor a 0."; saldo sin cambio
+
 5	Depósito negativo	Opción 2, monto -20	Mismo error; saldo sin cambio
+
 6	Retiro válido	Saldo 150; opción 3, monto 30	Nuevo saldo $120.0; transacciones +1
+
 7	Retiro mayor al saldo	Saldo 150; opción 3, monto 200	"Fondos insuficientes"; saldo sin cambio
+
 8	Retiro igual al saldo	Saldo 120; opción 3, monto 120	Retiro exitoso; saldo $0.0
+
 9	Retiro en cero o negativo	Opción 3, monto 0 o -10	"El monto debe ser mayor a 0."
+
 10	Opción inexistente	Opción 9	"Opción inválida." y muestra el menú de nuevo
+
 11	Ver transacciones	2 operaciones exitosas y 2 fallidas; opción 4	Transacciones realizadas: 2
+
 12	Salir	Opción 5	"Gracias por usar el cajero." y termina
+
 
 
 
