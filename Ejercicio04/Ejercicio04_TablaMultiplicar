@@ -26,5 +26,8 @@ public class Main {
             numero = entrada.nextInt();
         }
 
+        // Mostrar el titulo de la tabla
+        System.out.println("\nTabla de multiplicar del " + numero);
+
     }
 }
